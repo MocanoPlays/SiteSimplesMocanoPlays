@@ -1,0 +1,153 @@
+body {
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+header {
+    background: #81c1df;
+    padding: 20px 0;
+}
+
+
+
+/* css da home */
+.superior {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.logo {
+    position: relative;
+    width: 20%;
+    top: 50px;
+    margin-right: auto;
+    transition: 300ms;
+    border: black;
+    border-radius: 25px;
+}
+
+.logo:hover {
+    opacity: 0.7;
+}
+
+nav {
+    position: absolute;
+    top: 175px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #8304aa;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+}
+
+.titulo-principal::before {
+    content: "[ ";
+}
+
+.titulo-principal::after {
+    content: " ]";
+}
+
+.principal {
+    width: 100%;
+    background: linear-gradient(#81c1df 15%, #FEFEFE);
+}
+
+.principal p {
+    padding: 1em 0;
+    width: 940px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+main p {
+    margin: 1em 0;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #FEFEFE;
+}
+
+footer img {
+    width: 5em;
+}
+
+
+
+/*css youtube*/
+.youtube {
+    background: #f06f6f;
+    padding: 20px 0;
+}
+
+.principal-yt {
+    width: 100%;
+    background: linear-gradient(#f06f6f, #FEFEFE);
+}
+
+.principal-yt p {
+    padding: 1em 0;
+    width: 940px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+main p {
+    margin: 1em 0;
+}
+
+.video {
+    width: 560px;
+    margin: 2em auto;  
+}
+
+
+
+/* css twitch */
+.twitch {
+    background-color: #b9a3e3;
+    padding: 20px 0;
+}
+
+.principal-tw {
+    width: 100%;
+    background: linear-gradient(#b9a3e3 15%, #FEFEFE);
+}
+
+.principal-tw p {
+    padding: 1em 0;
+    width: 940px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.clipes {
+    width: 556px;
+    margin: 2em auto;  
+}
